@@ -23,6 +23,7 @@ myEmitter.on("newSale", (stock) => {
   console.log(`There are now ${stock} items left in stock.`);
 });
 
+/////object that emits the event//////
 myEmitter.emit("newSale", 9);
 
 ///////////////////////
