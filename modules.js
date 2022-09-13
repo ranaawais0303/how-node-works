@@ -12,3 +12,12 @@ console.log(calc1.divide(2, 3));
 //by using object distructuring
 const { add, multiply, divide } = require("./test-module-2");
 console.log(multiply(3, 4));
+
+////Cache///////////
+//first time it load full module and execute
+//but in the next time this will
+//take only function because already
+//loaded into cache
+require("./test-module-3")();
+require("./test-module-3")();
+require("./test-module-3")();
