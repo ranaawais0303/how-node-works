@@ -9,7 +9,7 @@
 //     return a / b;
 //   }
 // }
-module.exports = class{
+module.exports = class {
   add(a, b) {
     return a + b;
   }
@@ -18,4 +18,5 @@ module.exports = class{
   }
   divide(a, b) {
     return a / b;
-  };
+  }
+};
